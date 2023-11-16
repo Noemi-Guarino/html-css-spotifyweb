@@ -28,7 +28,7 @@ object-fit: cover;
     padding: 20px;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     /* position: fixed;
     z-index: 1;
@@ -44,17 +44,6 @@ ul> *{
 .middlenavcoloverflow{
     overflow: auto;
     height:200px;
-}
-
-.firstnavcol{
-    height: 70%;
-}
-
-.endnavcol{
-    display: flex;
-    align-items: flex-end;
-    /* border: 1px solid white; */
-    height: 30%;
 }
 
 .hrsidebar{
