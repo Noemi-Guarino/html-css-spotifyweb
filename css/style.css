@@ -81,7 +81,6 @@ ul> *{
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
-    cursor: pointer;
 }
 
 .main_container_albums{
@@ -129,13 +128,13 @@ ul> *{
 .album> h3{
     color: white;
     text-align: center;
+    margin-top: 10px;
 }
 
 .album> h6{
     color: lightgrey;
     text-align: center;
 }
-
 
 .main_categories{
     text-align: center;
@@ -168,9 +167,8 @@ ul> *{
 }
 
 .col-3> *{
-    margin-right: 20px;
+    margin: 10px;
 }
-
 
 .description_special_album{
     margin-left: 10px;
@@ -187,7 +185,7 @@ ul> *{
 }
 
 .volumebar_lightgrey{
-    background-color: green;
+    background-color: rgb(182, 182, 182);
     height:10px;
     width:25%;
     border-radius: 10px;
@@ -196,7 +194,7 @@ ul> *{
 .volumebar_grey{
     background-color: grey;
     height:10px;
-    width: 100px;
+    width: 70px;
     border-radius: 10px;
 }
 
@@ -209,12 +207,12 @@ ul> *{
 }
 
 .col_2_top> span{
-
+    margin: 7px;
 }
 
 
 .scrollbar_songtime{
-    background-color: green;
+    background-color: rgb(182, 182, 182);
     height:10px;
     width:45%;
     border-radius: 10px;
@@ -223,8 +221,21 @@ ul> *{
 .scrollbar_song{
     background-color: grey;
     height:10px;
-    width: 200px;
+    width: 250px;
     border-radius: 10px;
+}
+
+.circle_img> img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* ANIMAZIONI */
+.buttonanimation:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+    transition-timing-function: ease;
 }
 
 
