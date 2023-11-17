@@ -15,26 +15,24 @@ main {
 
 img{
     width: 100%;
+    display: block;
 }
 
 .imglogo {
-width: 40%;
-object-fit: cover;
+    width: 50%;
+    object-fit: cover;
 
 }
 
 .navigationmenu{
-    width: 20%;
+    width: 400px;
     height: calc(100vh - 100px);
     padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    background-color: #000000;
+    background-color: purple;
 }
 
 ul> *{
@@ -58,17 +56,19 @@ ul> *{
     display:none;
 }
 
-.conteinermain{
+#conteinermain{
     display: flex;
     flex-direction: row;
 }
 
+
 .containerheader{
     background-color: rgba(0, 0, 0, 0.30);
+    position: fixed;
     z-index: 1;
     width: 100%;
-    position: sticky;
-    right: 0;
+    height: 80px;
+    padding: 10px;
 }
 
 .button {
@@ -84,14 +84,9 @@ ul> *{
 }
 
 .main_container_albums{
-    width: 100%;
     height: 100vh;
     overflow: auto;
-
-}
-
-.main_container_right{
-    width: 100%;
+    background-color: yellow;
 
 }
 
@@ -144,7 +139,7 @@ ul> *{
 
 .main_categories{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .footer_container{
@@ -159,7 +154,7 @@ ul> *{
 
 @media screen and (max-width:700px){
     .album{
-        width: calc(100% / 2 -  10px);
+        width: calc(100% / 4 -  10px);
     }
     
 }
