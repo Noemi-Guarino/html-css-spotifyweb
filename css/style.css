@@ -36,6 +36,11 @@ img{
 ul> *{
     margin-bottom: 20px;
     list-style:none;
+    color: grey;
+}
+
+#colorwhite{
+    color: white;
 }
 
 .middlenavcoloverflow{
@@ -76,11 +81,12 @@ ul> *{
     border: 2px solid white;
     border-radius: 30px;
     color: white;
-    padding: 15px 32px;
+    padding: 12px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
+    margin-right: 40px;
 }
 
 .main_container_albums{
@@ -93,7 +99,7 @@ ul> *{
 .main_categories> ul> li{
     display: inline-block;
     text-align: center;
-    color: white;
+    color: grey;
     font-size: 1em;
     margin-right: 10px;
 }
@@ -180,6 +186,12 @@ ul> *{
     margin-left: 30px;
 }
 
+.icon_col-1> span{
+    color: grey;
+    margin-right: 10px;
+}
+
+
 .img_album_footer> img{
     object-fit: cover;
 }
@@ -236,6 +248,14 @@ ul> *{
     transform: scale(1.5);
     transition: all 1s;
     transition-timing-function: ease;
+}
+
+.animationcolorwhite:hover {
+    color: white;
+}
+  
+.underlinenomesong:hover {
+    text-decoration: underline;
 }
 
 
