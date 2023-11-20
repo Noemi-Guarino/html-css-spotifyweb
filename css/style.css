@@ -6,7 +6,7 @@
 }
 
 main {
-    max-width: 100%px;
+    max-width: 100%;
     height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -242,6 +242,32 @@ ul> *{
     object-fit: cover;
 }
 
+.imgalbum {
+    position: relative;
+    width: 100%;
+}
+
+.blackfiligrana {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.blackfiligrana> i {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ANIMAZIONI */
 .buttonanimation:hover{
@@ -254,8 +280,8 @@ ul> *{
     color: white;
 }
   
-.underlinenomesong:hover {
-    text-decoration: underline;
+.imgalbum:hover .blackfiligrana {
+    opacity: 1;
 }
 
 
